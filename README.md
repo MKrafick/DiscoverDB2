@@ -5,16 +5,16 @@ Scripts, SQL, and files used for the DISCOVER.DB2 YouTube channel.
 I am not an advanced scripter or SQL writer. No warranty implied, use these at your own risk.
 
 ### Purpose:
-The following Scripts, SQL, or files were used in a episode of Discover.DB2 on Youtube. If you watched an episoide and want to get your hands on something I used or demoed, this is the place to get it.
+The following Scripts, SQL, or files were used in an episode of Discover.DB2 (Youtube). If you watched an episoide and want to get your hands on something I used, this is the place to get it.
 
 ### Notes:
-Make sure to read comments and headers of each script. In each case, you will probably have to swap out a placeholder like "@VALUE@" in the script for a specific value you would like set.
+Make sure to read comments and headers of each script. In each case, you will probably have to swap out a few placeholders (@VALUE@) for a specific value you would like set.
 
 ### Available SQL and Scripts:
 
 *CREATE_EXPLAIN.ksh (Episode 5)*
 
-This script will call a sysproc to create tables needed for the EXPLAIN or db2advise utilities.
+This script will call a procedure to create tables needed for the EXPLAIN or db2advis utilities.
 
 
 *CRONTAB_TEMPLATE (Episode 3)*
@@ -39,7 +39,7 @@ A basic template to create a user profile (.profile) for your instance ID. Inclu
 
 *REVOKE_PUBLIC.ksh (Episode 5)*
 
-This script will revoke some implicit access PUBLIC is granted upon an initial DB creation. CAUTION: If your database is established already (with users, application connections, etc) be careful and test the affects in a lower level environment first.
+This script will revoke some implicit access PUBLIC is granted upon initial DB creation. CAUTION: If your database is established already (with users, application connections, etc) be careful and test the affects in a lower level environment first.
 
 
 *UPDATE_DBM_PREF.ksh (Episode 4)*
