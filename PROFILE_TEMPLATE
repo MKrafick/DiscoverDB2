@@ -1,0 +1,17 @@
+set -o vi
+clear
+export PS1='$(whoami)@$(hostname -s):$PWD $ '
+
+echo "#######################################################################"
+echo "# Server: <SERVERNAME>       |   Purpose: <WHAT IS IT FOR>            #"
+echo "# Database Name: <DBNAME>                                             #"
+echo "#                                                                     #"
+echo "# DB2 Instance ID: <ID>      |   Maintenance Enabled: <YES/NO>        #"
+echo "# HADR Enabled: No           |   Monitoring Enabled: <YES/NO>         #"
+echo "#                                                                     #"
+echo "# Misc. Notes:  																											#"
+echo "#   Backup Details:             <TYPE/FREQUENCY/RETENTION>            #"
+echo "#   Backup Location:            <Dir>                                 #"
+echo "#   Locking Event Monitor:      <NAME>                                #"
+echo "#                                                                     #"
+echo "#######################################################################"

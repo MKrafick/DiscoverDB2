@@ -1,0 +1,28 @@
+#############################################################################
+# Server: <SERVERNAME>       |   Purpose: <WHAT IS IT FOR>                  #
+# Database Name: <DBNAME>                                                   #
+#                                                                           #
+# DB2 Instance ID: <ID>      |   Maintenance Enabled: <YES/NO>              #
+# HADR Enabled: No           |   Monitoring Enabled: <YES/NO>               #
+#                                                                           #
+#                                                                           #
+# Crontab Reference                                                         #
+# <Min> <Hr> <Day_of_Month> <Month_of_Year> <Day_of_Week> <Command>         #
+#                                                                           #
+# Day of week reference: 0 - 6 => Sunday to Saturday                        #
+#                                                                           #
+# Notes:                                                                    #
+#       <Any special notes like server time zone, etc here>                 #
+#############################################################################
+
+#EXAMPLE ENTRY - 5:00am, Every Sunday
+#0 5 * * 0 . /home/db2inst1/.profile; cd /<SCRIPT_DIRECTORY>; ./<SCRIPT_EXAMPLE.ksh> > /<SCRIPT_OUTPUT_DIRECTORY>/<SCRIPT_EXAMPLE.out> 2>&1
+
+#PLACEHOLDER - REORG/RUNSTATS
+#* * * * * . /home/db2inst1/.profile; cd /<SCRIPT_DIRECTORY>; ./<SCRIPT_EXAMPLE.ksh> > /<SCRIPT_OUTPUT_DIRECTORY>/<SCRIPT_EXAMPLE.out> 2>&1
+
+#PLACEHOLDER - DATABASE BACKUPS
+#* * * * * . /home/db2inst1/.profile; cd /<SCRIPT_DIRECTORY>; ./<SCRIPT_EXAMPLE.ksh> > /<SCRIPT_OUTPUT_DIRECTORY>/<SCRIPT_EXAMPLE.out> 2>&1
+
+#PLACEHOLDER - DB2DIAG LOG ROTATION/PRUNING
+#* * * * * . /home/db2inst1/.profile; cd /<SCRIPT_DIRECTORY>; ./<SCRIPT_EXAMPLE.ksh> > /<SCRIPT_OUTPUT_DIRECTORY>/<SCRIPT_EXAMPLE.out> 2>&1
