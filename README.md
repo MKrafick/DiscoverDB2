@@ -32,6 +32,11 @@ This script will adjust DB2 profile variables to some specific settings I use wh
 This script will completely deactivate the (depricated) DB2 Health Monitor. Pay attention to comments in the script and follow the URL within the script to an IBM Technote.
 
 
+*PARSE_DIAG.ksh (Episode 9)*
+
+A quick script that takes a database name and pulls 24 hours of DB2DIAG.log details via PD_GET_DIAG_HIST.
+
+
 *PROFILE_TEMPLATE (Episode 3)*
 
 A basic template to create a user profile (.profile) for your instance ID. Includes items like command line recall, prompt formatting, and splashscreens.
