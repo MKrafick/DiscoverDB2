@@ -11,7 +11,7 @@
 -- Avg Result Set Size (ARSS)
 -- ARSS is not index read efficiency, that is further in this SQL file. This tells you the avg rows retured
 -- at a database level. This helps you determine what type of workload you typically run in this environment.
--- it signals how severe the IREF > 10 rule is below.
+
 SELECT ROWS_RETURNED/SELECT_SQL_STMTS AS DB_AVG_RESULT_SIZE,
 CASE
   WHEN (ROWS_RETURNED/SELECT_SQL_STMTS) <=10 THEN 'OLTP'
