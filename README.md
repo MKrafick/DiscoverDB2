@@ -26,6 +26,10 @@ A basic template to create a crontab entry for your DB2 instance. Includes a hea
 
 This script will adjust DB2 profile variables to some specific settings I use when creating a new database instance from scratch.
 
+*EXT_STATUS.sql (Episode 21)*
+
+This SQL will help you monitor background extent movement progress from an ALTER TABLESPACE REDUCE MAX command.
+
 *IREF.sql (Episode 18)*
 
 SQL that will extrapolate a database Avg. Result Set Size (ARSS), database level Index Read Efficiency (IREF), and statment level Index Read Efficiency (IREF).
