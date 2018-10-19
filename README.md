@@ -38,6 +38,9 @@ SQL that will extrapolate a database Avg. Result Set Size (ARSS), database level
 
 This script will completely deactivate the (depricated) DB2 Health Monitor. Pay attention to comments in the script and follow the URL within the script to an IBM Technote.
 
+*Dockerfile_Example.zip (Episode 26)*
+
+Three files used during "Writing a Dockerfile for Db2 (Part II)" episode. This contains a dockerfile and additional scripts used in my example.
 
 *PARSE_DIAG.ksh (Episode 11)*
 
